@@ -34,6 +34,14 @@ Luego esta el ViewWillDisapper, se activa cunado la vista va a desaparecer
 Por ultimo esta el ViewDidDisappear, y este se activa cuando la vista ya desapareció
 Este que se llama DidReceiveMemoryWarning, no es muy comun de utilizar porque esta se activa cuando hay problemas de memoria RAM lo podemos actvar también para que la App no se vaya a cerrar de forma inesperada
  
- 3.- El color de la pantalla es rojo
+ 3.- El ARC es el que permite liberar la memoria de aquellos elementos que no posean referencias fuertes hacia ellos y su acronimo significa Automatic Reference Counting
+ 
+ 4.- Un strong se utiliza en caso de que en una incializacion las varibales que contenga sean opcionales y vengan nulas (nil) para asi instanciarlas a una misma y aunque vengan nulas sigan existiendo
+ 
+    .Un Weak se puede usar en caso de que en una inicializacion que tenga muchas refenrecias fuertes y cause un problea de memoria el ARC puede elminar las WeakVar y siempre se utiliza con opcionales
+ 
+    .Las Unowned son practicamente iguales a las Weak solo que estas siempre tienen un valor
+ 
+ 5.- El color de la pantalla es rojo por que en la funcion DidFinish se esta instanciando un color amarillo pero como en la Vista en el ViewDidLoad la cambia a rojo esa es la que se mostrara porque es cuando la vista ya cargo. 
  
  */

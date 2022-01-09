@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		373DE94473491C874A4841E3 /* Pods_NachTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18CFFC69289316AE1AE1741 /* Pods_NachTest.framework */; };
+		6F06D028278B7A9F00C8F8AD /* PuntoExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F06D027278B7A9F00C8F8AD /* PuntoExtra.swift */; };
 		6F09BFEA278A70390003876E /* Extension+UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09BFE9278A70390003876E /* Extension+UiView.swift */; };
 		6F0E3F5B2789E89400F69629 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E3F592789E89400F69629 /* HomeTableViewCell.swift */; };
 		6F0E3F5C2789E89400F69629 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E3F5A2789E89400F69629 /* HomeTableViewCell.xib */; };
@@ -118,6 +119,7 @@
 /* Begin PBXFileReference section */
 		6B63FB07AEC876D5EF20FAC0 /* Pods-NachTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NachTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NachTestTests/Pods-NachTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DAC6B8B0D8A35ED0E47EE47 /* Pods-NachTest-NachTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NachTest-NachTestUITests.release.xcconfig"; path = "Target Support Files/Pods-NachTest-NachTestUITests/Pods-NachTest-NachTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F06D027278B7A9F00C8F8AD /* PuntoExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuntoExtra.swift; sourceTree = "<group>"; };
 		6F09BFE9278A70390003876E /* Extension+UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UiView.swift"; sourceTree = "<group>"; };
 		6F0E3F592789E89400F69629 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		6F0E3F5A2789E89400F69629 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -255,6 +257,14 @@
 				6F959E5627862FC8004CA684 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F06D026278B7A8500C8F8AD /* PuntoExtra */ = {
+			isa = PBXGroup;
+			children = (
+				6F06D027278B7A9F00C8F8AD /* PuntoExtra.swift */,
+			);
+			path = PuntoExtra;
 			sourceTree = "<group>";
 		};
 		6F0E3F4B2789E7B300F69629 /* TableCells */ = {
@@ -472,6 +482,7 @@
 		6F959E4727862FBF004CA684 /* NachTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F06D026278B7A8500C8F8AD /* PuntoExtra */,
 				6F06D022278B76E400C8F8AD /* Resources */,
 				6F0E3F79278A09B500F69629 /* Extensions */,
 				6F484C7C27895927005A91BC /* CustomTabBar */,
@@ -851,6 +862,7 @@
 				6F0E3F692789FA9F00F69629 /* ChatTableViewCell.swift in Sources */,
 				6F484CFF27897035005A91BC /* NotificationsComponents.swift in Sources */,
 				6F0E3F7B278A09D100F69629 /* Extension+Segment.swift in Sources */,
+				6F06D028278B7A9F00C8F8AD /* PuntoExtra.swift in Sources */,
 				6F484D1F278976E4005A91BC /* ProfileRouter.swift in Sources */,
 				6F484D342789770C005A91BC /* ProfileComponents.swift in Sources */,
 				6F959E8C278634FD004CA684 /* InitPresenter.swift in Sources */,

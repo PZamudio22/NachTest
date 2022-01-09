@@ -247,6 +247,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F06D022278B76E400C8F8AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F959E5427862FC8004CA684 /* Assets.xcassets */,
+				6F959E4E27862FBF004CA684 /* Main.storyboard */,
+				6F959E5627862FC8004CA684 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		6F0E3F4B2789E7B300F69629 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,13 +472,11 @@
 		6F959E4727862FBF004CA684 /* NachTest */ = {
 			isa = PBXGroup;
 			children = (
+				6F06D022278B76E400C8F8AD /* Resources */,
 				6F0E3F79278A09B500F69629 /* Extensions */,
 				6F484C7C27895927005A91BC /* CustomTabBar */,
 				6F959E7E27863230004CA684 /* AppDelegates */,
 				6F959E7F2786330F004CA684 /* Modules */,
-				6F959E4E27862FBF004CA684 /* Main.storyboard */,
-				6F959E5427862FC8004CA684 /* Assets.xcassets */,
-				6F959E5627862FC8004CA684 /* LaunchScreen.storyboard */,
 				6F959E5927862FC8004CA684 /* Info.plist */,
 				6FEB469D278A420C00EEBFF2 /* GoogleService-Info.plist */,
 				6F959E5127862FBF004CA684 /* NachTest.xcdatamodeld */,
